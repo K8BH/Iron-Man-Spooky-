@@ -124,9 +124,11 @@ display: block;
 
 .tag{
 
+border: 1px solid #333333;
+color: #ffffff;
+padding: 10px 20px;
 
 
-    
 }
 
 
