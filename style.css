@@ -45,7 +45,26 @@ background: transparent;
 color: #888888;
 text-decoration: none;
 font-size: 0.85rem;
-
-
+letter-spacing: 2px;
+text-transform: uppercase;
+transition: color 0.2 ease;
 
  }
+
+ nav a:hover {
+
+   color: #ffffff;
+
+ }
+
+header {
+
+padding: 80px 50 px;
+max-width: 1200px;
+margin: 0 auto;
+
+
+}
+
+
+
