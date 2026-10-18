@@ -143,3 +143,10 @@ padding: 10px 20px;
 }
 
 
+header, section {
+padding: 100px 50px;
+max-width: 1200px;
+margin: 0 auto;
+
+
+}
