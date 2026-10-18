@@ -1,3 +1,14 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+
+}
+
+
+
+
 body {
  background-color: #050505;
  color: #888888;
@@ -47,7 +58,7 @@ text-decoration: none;
 font-size: 0.85rem;
 letter-spacing: 2px;
 text-transform: uppercase;
-transition: color 0.2 ease;
+transition: color 0.2s ease;
 
  }
 
@@ -59,7 +70,7 @@ transition: color 0.2 ease;
 
 header {
 
-padding: 80px 50 px;
+padding: 80px 50px;
 max-width: 1200px;
 margin: 0 auto;
 
