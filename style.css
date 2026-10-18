@@ -1,0 +1,51 @@
+body {
+ background-color: #050505;
+ color: #888888;
+ font-family: Arial, Helvetica, sans-serif;
+ margin: 0;
+ padding: 0;
+ line-height: 1.6;
+     
+}
+ nav{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 30px 50px ;
+background: transparent;
+
+ }
+
+ .logo{
+ color: #ffffff;
+ font-weight: 800;
+ font-size: 1.2rem;
+ letter-spacing: 1px;
+
+ }
+
+
+ .logo span{
+   color: #ff6600;
+
+ }
+
+
+ nav ul{
+
+   list-style: none;
+   display: flex;
+   gap: 30px;
+   margin: 0;
+   padding: 0;
+
+ }
+  
+ nav a {
+color: #888888;
+text-decoration: none;
+font-size: 0.85rem;
+
+
+
+ }
