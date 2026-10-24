@@ -16,6 +16,8 @@ body {
  margin: 0;
  padding: 0;
  line-height: 1.6;
+ position: relative;
+ isolation: isolate;
      
 }
  nav{
@@ -217,3 +219,65 @@ transform: translateX(10px);
 
 
 }
+.floating-bg{
+
+
+  position: fixed;
+  inset: 0;
+  overflow:hidden;
+  pointer-events:none;
+  z-index: index -1;
+}
+.floating-bg div {
+
+
+  position: absolute;
+  bottom: -100px;
+  opacity: 0;
+  animation:apookyfloat 14s linear infinite;
+    filter: drop-shadow(0 0 12px #ff6600);
+
+  }
+  .prop-1{
+
+
+
+    left:10%;
+    font-size: 55px;
+    animation-delay: 0s !important;
+
+  }
+  .prop-2{
+
+
+    left: 75%;
+    font-size: 45px;
+    filter: drop-shadow(0 0 12px #ffffff) !important;
+
+  }
+  .prop-3{
+    left: 45%;
+    font-size: 65px;
+    animation-delay: 8s !important;
+  }
+
+  @keyframes spookyfloat {
+
+0% {
+  transform: translateY(0) rotate(0deg);
+  opacity: 0%;
+}
+10%{
+  opacity: 0.65%;
+}
+50%{
+  transform: translateY(-50vh) translateX(50px) rotateX(180deg);
+}
+90%{
+  opacity: 0.5%;
+}
+100%{
+  transform: translateX(-115vh) translateX(-30px) rotate(360deg);
+  opacity: 0;
+}
+  }
