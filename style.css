@@ -265,19 +265,19 @@ transform: translateX(10px);
 
 0% {
   transform: translateY(0) rotate(0deg);
-  opacity: 0%;
+  opacity: 0;
 }
 10%{
-  opacity: 0.65%;
+  opacity: 0.65;
 }
 50%{
   transform: translateY(-50vh) translateX(50px) rotateX(180deg);
 }
 90%{
-  opacity: 0.5%;
+  opacity: 0.5;
 }
 100%{
-  transform: translateX(-115vh) translateX(-30px) rotate(360deg);
+  transform: translateY(-115vh) translateX(-30px) rotate(360deg);
   opacity: 0;
 }
   }
