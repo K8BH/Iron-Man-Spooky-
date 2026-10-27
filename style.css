@@ -281,3 +281,16 @@ transform: translateX(10px);
   opacity: 0;
 }
   }
+  #spooky-button, .quiz-btn {
+    background: transparent;
+    border: 1px solid #333;
+    color: #888;
+    padding: 10px 20px;
+    margin: 5px 0;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+
+  }
+  #spooky-button {width: auto;}
+  .quiz-btn:hover {border-color: #ff6600; color: #fff;}
