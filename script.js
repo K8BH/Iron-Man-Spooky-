@@ -37,7 +37,13 @@ repulsorBtn.style.background = "transparent";
 const timerEL = document.getElementById('timer');
 if (timerEL) {
     setInterval (() => {
-        const diff = new Date (new Date().getFullYear(),9,31) - new Date();
+       
+        const now = new Date();
+        let target = new Date(now.getFullYear(), 9, 31);
+        if (now > target) target = new Date (now.getFullYear() + 1, 9, 31);
+       const diff = target - now;
+
+
         const d = Math.floor (diff / 86400000);
         const h = Math.floor ((diff / 3600000) % 24);
         const m = Math.floor ((diff / 60000) % 60);
