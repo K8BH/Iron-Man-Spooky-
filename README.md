@@ -1,64 +1,68 @@
-# Iron-Man-Spooky
+Iron-Man-Spooky
+A Halloween-themed Iron Man portfolio combining Stark Tech with a spooky, glitchy aesthetic fr.
 
-A Halloween-themed Iron Man portfolio.
+What is this?
+tbh I made this cuz I wanted to try smth diff from a basic ahh portfolio website. It's based on Iron Man, but with a dark, Halloween vibe.
 
-## What is this?
+The site has some Iron Man lore, but the whole design is just straight spooky vibes. U got pumpkins and skeleton skulls floating in the bg, a cinematic dark vignette effect, and I added a Fire Repulsor button that triggers a system activation animation.
 
-I made this project because I wanted to try something different from a normal portfolio website. It's based on Iron Man, with a Halloween theme added to it.
+When u click the button, the text swaps to a JARVIS system override msg that blinks blood red. Lowkey a small detail, but it makes the site feel like an actual hacked system instead of just a normal webpage.
 
-The website has some Iron Man info, but the whole design is made to fit the spooky vibe. There are pumpkins and skeleton skulls floating in the background, and I added a Fire Repulsor button that triggers a system activation animation.
+Screenshots
+<img width="1366" height="768" alt="Screenshot (109)" src="https://github.com/user-attachments/assets/1ec08524-6202-4ef9-b677-055ac03fd5b4" />
+<img width="1366" height="768" alt="Screenshot (108)" src="https://github.com/user-attachments/assets/fe61bc7d-4088-4176-afee-2719bb214926" />
 
-When you click the button, the text changes to a system override message that blinks in blood red. It's a small detail, but it makes the website feel more like an actual system instead of just a normal webpage.
 
-## Screenshots
+How to run it
+No complicated setup needed, it's lightwork. Just do this:
 
-<img width="1366" height="768" alt="Screenshot (105)" src="https://github.com/user-attachments/assets/dcec620e-b2b9-4b4a-9394-641dd544c01a" />
+Clone or download this repo.
 
-<img width="1366" height="768" alt="Screenshot (106)" src="https://github.com/user-attachments/assets/888b939f-e31d-4358-a5bf-d03bf826817d" />
+Open the folder.
 
-## How to run it
+Double-click index.html to open it in ur browser.
 
-1. Download or clone this repository.
-2. Open the project folder.
-3. Open `index.html` in your browser.
-4. Click the Fire Repulsor button and check out the animation.
+Click the Fire Repulsor button and check out the animation.
 
-That's it. No complicated setup needed.
+What I used
+HTML for the bones.
 
-## What I used
+CSS for the dark aesthetic, floating decors, custom scrollbars, and 3D glitch text animations (it slays).
 
-- HTML for the structure
-- CSS for the design, floating decorations, and animations
-- JavaScript for the button interaction and system override effect
-- Online documentation and learning resources to figure things out
+JS for the button logic and system override effects.
 
-## Stuff I learned
+Docs and online resources to figure stuff out when I was stuck.
 
-I learned more about CSS animations, button interactions, and how to make a website match a particular theme.
+Stuff I learned
+Learned a bunch about:
 
-I also used documentation to understand things I didn't know, and my friends helped me learn along the way. I still have a lot to learn, but building this was a good way to actually try things instead of just reading about them.
+CSS Keyframes (we love a good animation).
 
-## Why Iron Man?
+Button interactions and state changes.
 
-Honestly, Iron Man and Halloween seemed like a fun combination.
+Using CSS to build a whole vibe (custom scrollbars, text selection, hover effects going crazy).
 
-I wanted the website to look like something Tony Stark might make if he had to do a Halloween project. The red system messages, pumpkins, skulls, and repulsor button all came from that idea.
+Used docs to understand stuff I was clueless about, and my friends clutched up and helped me learn too. Still got a lot to learn, but building this was W practice instead of just reading tutorials all day.
 
-## What's next?
+Why Iron Man?
+Ngl, Iron Man and Halloween is an elite combo.
 
-Some things I might add later:
+Wanted the site to look like smth Tony Stark would cook up if he had to do a Halloween project. The red system msgs, glowing UI, pumpkins, skulls, and repulsor buttons all came from that idea.
 
-- A JARVIS-style interface
-- Secret messages or hidden interactions
-- More system animations
-- Better mobile support
+What's next?
+Stuff I might drop later:
 
-These are just ideas for now.
+[ ] A fully interactive JARVIS-style voice/text interface.
 
-## Final note
+[ ] Secret msgs or hidden easter eggs.
 
-This was a fun project to work on, and I got to experiment with a bunch of things while building it. I used resources to learn, got help from my friends, and figured stuff out along the way.
+[ ] Crazy system boot-up animations.
 
-Still learning, still building, and hopefully making cooler stuff next time.
+[ ] Better mobile support cuz responsive design is hard rn.
 
-**Built by me, inspired by Iron Man, and given a spooky Halloween twist.**
+Just spitballing for now tho.
+
+Final note
+This project was super fun to work on, and I got to mess around with a bunch of stuff. Used resources to learn, friends carried me a bit, and figured stuff out along the way.
+
+Still learning, still building, and hopefully dropping cooler stuff next time.
